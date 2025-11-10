@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful Image Carousel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="carousel-container">
+        <div class="carousel">
+            <div class="carousel-slides">
+                <div class="slide active">
+                    <img src="images/mountain-landscape.webp" alt="Mountain Landscape">
+                    <div class="slide-content">
+                        <h2>Mountain Adventure</h2>
+                        <p>Explore the breathtaking beauty of mountain ranges</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="images/Tropical-Paradise.webp" alt="Beach Scene">
+                    <div class="slide-content">
+                        <h2>Tropical Paradise</h2>
+                        <p>Relax on pristine beaches with crystal clear waters</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="images/Forest-Exploration.webp" alt="Forest Path">
+                    <div class="slide-content">
+                        <h2>Forest Exploration</h2>
+                        <p>Discover the magic of ancient forests and winding paths</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="images/Aurora-Borealis.webp" alt="Northern Lights">
+                    <div class="slide-content">
+                        <h2>Aurora Borealis</h2>
+                        <p>Witness the spectacular dance of the northern lights</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Navigation buttons -->
+            <button class="carousel-btn prev-btn" aria-label="Previous slide">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="none" d="M0 0h24v24H0z"/>
+                    <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" fill="white"/>
+                </svg>
+            </button>
+            <button class="carousel-btn next-btn" aria-label="Next slide">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="none" d="M0 0h24v24H0z"/>
+                    <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" fill="white"/>
+                </svg>
+            </button>
+            
+            <!-- Indicators -->
+            <div class="indicators">
+                <button class="indicator active" aria-label="Go to slide 1"></button>
+                <button class="indicator" aria-label="Go to slide 2"></button>
+                <button class="indicator" aria-label="Go to slide 3"></button>
+                <button class="indicator" aria-label="Go to slide 4"></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
