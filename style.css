@@ -32,7 +32,7 @@ body {
 
 .carousel-slides {
     display: flex;
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.8s ease-in-out;
     height: 70vh;
     min-height: 500px;
 }
@@ -40,13 +40,12 @@ body {
 .slide {
     min-width: 100%;
     position: relative;
-    opacity: 0;
-    transition: opacity 0.5s ease;
 }
 
+/* 
 .slide.active {
     opacity: 1;
-}
+} */
 
 .slide img {
     width: 100%;
@@ -151,11 +150,11 @@ body {
         height: 60vh;
         min-height: 400px;
     }
-    
+
     .slide-content h2 {
         font-size: 2rem;
     }
-    
+
     .slide-content p {
         font-size: 1.1rem;
     }
@@ -166,19 +165,19 @@ body {
         height: 50vh;
         min-height: 350px;
     }
-    
+
     .slide-content {
         padding: 30px 20px 20px;
     }
-    
+
     .slide-content h2 {
         font-size: 1.8rem;
     }
-    
+
     .slide-content p {
         font-size: 1rem;
     }
-    
+
     .carousel-btn {
         width: 50px;
         height: 50px;
@@ -189,45 +188,45 @@ body {
     body {
         padding: 10px;
     }
-    
+
     .carousel-container {
         border-radius: 10px;
     }
-    
+
     .carousel {
         border-radius: 10px;
     }
-    
+
     .carousel-slides {
         height: 40vh;
         min-height: 250px;
     }
-    
+
     .slide-content {
         padding: 20px 15px 15px;
     }
-    
+
     .slide-content h2 {
         font-size: 1.5rem;
     }
-    
+
     .slide-content p {
         font-size: 0.9rem;
     }
-    
+
     .carousel-btn {
         width: 40px;
         height: 40px;
     }
-    
+
     .prev-btn {
         left: 10px;
     }
-    
+
     .next-btn {
         right: 10px;
     }
-    
+
     .indicators {
         bottom: 10px;
     }
@@ -238,6 +237,7 @@ body {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
